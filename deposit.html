@@ -28,10 +28,37 @@
 <br>
 
 
+
+<div class="keyboard">
+    <form name="cal">
+
+        
+        <input type="button" value="1" onclick="cal.value+='1'">
+        <input type="button" value="2" onclick="cal.value+='2'">
+        <input type="button" value="3" onclick="cal.value+='3'">
+        <input type="button" value="4" onclick="cal.value+='4'">
+        <br><br>
+        <input type="button" value="5" onclick="cal.display.value+='5'">
+        <input type="button" value="6" onclick="cal.display.value+='6'">
+        <input type="button" value="7" onclick="cal.display.value+='7'">
+        <input type="button" value="8" onclick="cal.display.value+='8'">
+        <br><br>
+        <input type="button" value="9" onclick="cal.display.value+='9'">
+        <input type="button" value="0" onclick="cal.display.value+='0'">
+        <input type="button" value="ENTER" onclick="cal.display.value= eval (cal.display.value)">
+        <input type="button" value="CANCEL" onclick="window.location.href = 'index.html';" >
+
+
+
+    </form>
+    
+</div>
+
 <script type="text/javascript" src="styles.JS"></script>
 
 
     </body>
     </html>
+
 
  
